@@ -1,0 +1,29 @@
+@startuml
+
+class Iphone{
+
+}
+
+class AparelhoTelefonico{
++ Ligar
++ Desligar
++ Atender
++ IniciarCorreioVoz
+
+}
+class NavegadorInternet{
++ ExibirPagina
++ AdicionarNovaAba
++ AtualizarPagina
++ Navegador
+}
+class ReprodutorMusical{
++ Tocar
++ Pausar
++ SelecionarMusica
+}
+Iphone <|-- AparelhoTelefonico
+Iphone <|-- NavegadorInternet
+Iphone <|-- ReprodutorMusical
+
+@enduml
